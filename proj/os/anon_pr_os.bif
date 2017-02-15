@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+	[bootloader]/home/einsamer-wolf/Vivado/proj/anon_pr_1/proj/sdk/fsbl/Debug/fsbl.elf
+	/home/einsamer-wolf/Vivado/proj/anon_pr_1/proj/sdk/anon_pr_sdk/mask_hw.bit
+	/home/einsamer-wolf/zynq_os/u-boot-xlnx/u-boot.elf
+}

@@ -1,0 +1,11 @@
+===================================
+Configuration Memory information
+===================================
+File Format        BIN
+Interface          SMAPX32
+Size               0M
+Start Address      0x00000000
+End Address        0x0003FFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x00033147    Sep 24 17:06:04 2016    /home/einsamer-wolf/Vivado/proj/anon_pr_1/proj/bit_file/swap_hw_pblock_anon_pr_partial.bit

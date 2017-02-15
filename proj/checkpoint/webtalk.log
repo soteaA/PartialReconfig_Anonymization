@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+# IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+# Start of session at: Sat Nov 26 10:32:06 2016
+# Process ID: 44694
+# Current directory: /home/einsamer-wolf/Vivado/proj/anon_pr_1/proj/checkpoint
+# Command line: wbtcv -mode batch -source /home/einsamer-wolf/Vivado/proj/anon_pr_1/proj/proj.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: /home/einsamer-wolf/Vivado/proj/anon_pr_1/proj/checkpoint/webtalk.log
+# Journal file: /home/einsamer-wolf/Vivado/proj/anon_pr_1/proj/checkpoint/webtalk.jou
+#-----------------------------------------------------------
+source /home/einsamer-wolf/Vivado/proj/anon_pr_1/proj/proj.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Nov 26 10:32:06 2016...

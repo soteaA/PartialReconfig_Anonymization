@@ -1,0 +1,83 @@
+15:48:38 **** Auto Build of configuration Debug for project anon_pr_app ****
+make all 
+Building file: ../src/main.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../anon_pr_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../../anon_pr_app_bsp/ps7_cortexa9_0/include/xtime_l.h:61:0,
+                 from ../src/main.c:20:
+../../anon_pr_app_bsp/ps7_cortexa9_0/include/xparameters.h:28:33: warning: initialization makes pointer from integer without a cast
+ #define XPAR_AXI_DMA_0_BASEADDR 0x40400000
+                                 ^
+../src/main.c:24:38: note: in expansion of macro 'XPAR_AXI_DMA_0_BASEADDR'
+ volatile unsigned int* axi_dma     = XPAR_AXI_DMA_0_BASEADDR;
+                                      ^
+../../anon_pr_app_bsp/ps7_cortexa9_0/include/xparameters.h:255:39: warning: initialization makes pointer from integer without a cast
+ #define XPAR_AXI_PR_DECOUPLE_BASEADDR 0x41200000
+                                       ^
+../src/main.c:25:42: note: in expansion of macro 'XPAR_AXI_PR_DECOUPLE_BASEADDR'
+ volatile unsigned int* axi_pr_decouple = XPAR_AXI_PR_DECOUPLE_BASEADDR;
+                                          ^
+../src/main.c:60:38: warning: initialization makes pointer from integer without a cast
+ volatile unsigned int *test_data   = 0x10100000;
+                                      ^
+../src/main.c:61:38: warning: initialization makes pointer from integer without a cast
+ volatile unsigned int *masked_data = 0x10200000;
+                                      ^
+../src/main.c:62:38: warning: initialization makes pointer from integer without a cast
+ volatile unsigned int *noised_data = 0x10300000;
+                                      ^
+../src/main.c:63:39: warning: initialization makes pointer from integer without a cast
+ volatile unsigned int *microed_data = 0x10400000;
+                                       ^
+../src/main.c:64:39: warning: initialization makes pointer from integer without a cast
+ volatile unsigned int *swapped_data = 0x10500000;
+                                       ^
+../src/main.c: In function 'XDcfg_TransferBitfile':
+../src/main.c:140:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("The Start time: %llu\r\n", tStart);
+  ^
+../src/main.c:140:2: warning: incompatible implicit declaration of built-in function 'printf'
+../src/main.c: In function 'main':
+../src/main.c:299:2: warning: incompatible implicit declaration of built-in function 'printf'
+  printf("On-chip temperature: %.2f ℃\r\n", oc_temp);
+  ^
+../src/main.c:337:63: warning: assignment makes integer from pointer without a cast
+    axi_dma[(XAXIDMA_TX_OFFSET + XAXIDMA_SRCADDR_OFFSET) >> 2] = test_data;
+                                                               ^
+../src/main.c:342:64: warning: assignment makes integer from pointer without a cast
+    axi_dma[(XAXIDMA_RX_OFFSET + XAXIDMA_DESTADDR_OFFSET) >> 2] = masked_data;
+                                                                ^
+../src/main.c:355:66: warning: assignment makes integer from pointer without a cast
+       axi_dma[(XAXIDMA_TX_OFFSET + XAXIDMA_SRCADDR_OFFSET) >> 2] = test_data;
+                                                                  ^
+../src/main.c:360:67: warning: assignment makes integer from pointer without a cast
+       axi_dma[(XAXIDMA_RX_OFFSET + XAXIDMA_DESTADDR_OFFSET) >> 2] = noised_data;
+                                                                   ^
+../src/main.c:372:66: warning: assignment makes integer from pointer without a cast
+       axi_dma[(XAXIDMA_TX_OFFSET + XAXIDMA_SRCADDR_OFFSET) >> 2] = test_data;
+                                                                  ^
+../src/main.c:377:67: warning: assignment makes integer from pointer without a cast
+       axi_dma[(XAXIDMA_RX_OFFSET + XAXIDMA_DESTADDR_OFFSET) >> 2] = swapped_data;
+                                                                   ^
+../src/main.c:389:66: warning: assignment makes integer from pointer without a cast
+       axi_dma[(XAXIDMA_TX_OFFSET + XAXIDMA_SRCADDR_OFFSET) >> 2] = test_data;
+                                                                  ^
+../src/main.c:394:67: warning: assignment makes integer from pointer without a cast
+       axi_dma[(XAXIDMA_RX_OFFSET + XAXIDMA_DESTADDR_OFFSET) >> 2] = microed_data;
+                                                                   ^
+Finished building: ../src/main.c
+ 
+Building target: anon_pr_app.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../anon_pr_app_bsp/ps7_cortexa9_0/lib -o "anon_pr_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: anon_pr_app.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size anon_pr_app.elf  |tee "anon_pr_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 107868	   2404	  25328	 135600	  211b0	anon_pr_app.elf
+Finished building: anon_pr_app.elf.size
+ 
+
+15:48:39 Build Finished (took 228ms)
+

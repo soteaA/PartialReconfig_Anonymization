@@ -1,0 +1,10 @@
+../../../../proj.srcs/sources_1/bd/micro_hw/ipshared/user.org/micro_agg_v1_0/hdl/MICRO_AGG_v1_0_S_AXIS.v
+../../../../proj.srcs/sources_1/bd/micro_hw/ipshared/user.org/micro_agg_v1_0/hdl/MICRO_AGG_v1_0_M_AXIS.v
+../../../../proj.srcs/sources_1/bd/micro_hw/ipshared/user.org/micro_agg_v1_0/hdl/four.v
+../../../../proj.srcs/sources_1/bd/micro_hw/ipshared/user.org/micro_agg_v1_0/hdl/eight.v
+../../../../proj.srcs/sources_1/bd/micro_hw/ipshared/user.org/micro_agg_v1_0/hdl/thtwo.v
+../../../../proj.srcs/sources_1/bd/micro_hw/ipshared/user.org/micro_agg_v1_0/hdl/steen.v
+../../../../proj.srcs/sources_1/bd/micro_hw/ipshared/user.org/micro_agg_v1_0/hdl/sum_reg.v
+../../../../proj.srcs/sources_1/bd/micro_hw/ipshared/user.org/micro_agg_v1_0/hdl/MICRO_AGG_v1_0.v
+../../../../proj.srcs/sources_1/bd/micro_hw/ip/micro_hw_MICRO_AGG_0_0/sim/micro_hw_MICRO_AGG_0_0.v
+../../../../proj.srcs/sources_1/bd/micro_hw/hdl/micro_hw.v

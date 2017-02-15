@@ -1,0 +1,5 @@
+set_property PACKAGE_PIN P17 [get_ports {led_o[0]}]
+set_property PACKAGE_PIN P18 [get_ports {led_o[1]}]
+set_property PACKAGE_PIN G19 [get_ports {gpio_0_tri_i_0[0]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {led_o[*]}]
+set_property IOSTANDARD LVCMOS25 [get_ports {gpio_0_tri_i_0[*]}]

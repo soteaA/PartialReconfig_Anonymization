@@ -1,0 +1,10 @@
+Language File-Name                 IP       Library         File-Path                                                                   
+Verilog, SWAP_v1_0_S_AXIS.v,       swap_hw, xil_defaultlib, ./../../../bd/swap_hw/ipshared/user.org/swap_v1_0/hdl/SWAP_v1_0_S_AXIS.v    
+Verilog, SWAP_v1_0_M_AXIS.v,       swap_hw, xil_defaultlib, ./../../../bd/swap_hw/ipshared/user.org/swap_v1_0/hdl/SWAP_v1_0_M_AXIS.v    
+Verilog, RAND.v,                   swap_hw, xil_defaultlib, ./../../../bd/swap_hw/ipshared/user.org/swap_v1_0/hdl/RAND.v                
+Verilog, SWAP_v1_0.v,              swap_hw, xil_defaultlib, ./../../../bd/swap_hw/ipshared/user.org/swap_v1_0/hdl/SWAP_v1_0.v           
+Verilog, swap_hw_SWAP_0_0.v,       swap_hw, xil_defaultlib, ./../../../bd/swap_hw/ip/swap_hw_SWAP_0_0/sim/swap_hw_SWAP_0_0.v            
+Verilog, xlconstant.v,             swap_hw, xil_defaultlib, ./../../../bd/swap_hw/ipshared/xilinx.com/xlconstant_v1_1/xlconstant.v      
+Verilog, swap_hw_xlconstant_0_0.v, swap_hw, xil_defaultlib, ./../../../bd/swap_hw/ip/swap_hw_xlconstant_0_0/sim/swap_hw_xlconstant_0_0.v
+Verilog, swap_hw_xlconstant_1_0.v, swap_hw, xil_defaultlib, ./../../../bd/swap_hw/ip/swap_hw_xlconstant_1_0/sim/swap_hw_xlconstant_1_0.v
+Verilog, swap_hw.v,                swap_hw, xil_defaultlib, ./../../../bd/swap_hw/hdl/swap_hw.v                                         

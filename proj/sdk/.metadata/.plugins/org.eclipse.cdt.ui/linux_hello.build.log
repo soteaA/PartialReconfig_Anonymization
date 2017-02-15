@@ -1,0 +1,11 @@
+10:17:31 **** Auto Build of configuration Debug for project linux_hello ****
+make all 
+Building target: linux_hello.elf
+Invoking: ARM Linux gcc linker
+arm-xilinx-linux-gnueabi-gcc  -o "linux_hello.elf"   
+arm-xilinx-linux-gnueabi-gcc: fatal error: no input files
+compilation terminated.
+make: *** [linux_hello.elf] エラー 1
+
+10:17:31 Build Finished (took 79ms)
+

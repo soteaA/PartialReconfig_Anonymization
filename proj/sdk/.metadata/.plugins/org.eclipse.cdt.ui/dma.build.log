@@ -1,0 +1,72 @@
+11:25:54 **** Auto Build of configuration Debug for project dma ****
+make all 
+Building file: ../src/axidma.c
+Invoking: ARM Linux gcc compiler
+arm-xilinx-linux-gnueabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/axidma.o" -MMD -MP -MF"src/axidma.d" -MT"src/axidma.d" -o "src/axidma.o" "../src/axidma.c"
+In file included from ../src/axidma.c:10:0:
+/opt/Xilinx/SDK/2015.3/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include/linux/dmaengine.h: In function 'dma_cookie_init':
+/opt/Xilinx/SDK/2015.3/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include/linux/dmaengine.h:17:6: error: dereferencing pointer to incomplete type
+  chan->cookie = DMA_MIN_COOKIE;
+      ^
+/opt/Xilinx/SDK/2015.3/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include/linux/dmaengine.h:17:17: error: 'DMA_MIN_COOKIE' undeclared (first use in this function)
+  chan->cookie = DMA_MIN_COOKIE;
+                 ^
+/opt/Xilinx/SDK/2015.3/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include/linux/dmaengine.h:17:17: note: each undeclared identifier is reported only once for each function it appears in
+/opt/Xilinx/SDK/2015.3/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include/linux/dmaengine.h:18:6: error: dereferencing pointer to incomplete type
+  chan->completed_cookie = DMA_MIN_COOKIE;
+      ^
+/opt/Xilinx/SDK/2015.3/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include/linux/dmaengine.h: At top level:
+/opt/Xilinx/SDK/2015.3/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include/linux/dmaengine.h:28:15: error: unknown type name 'dma_cookie_t'
+ static inline dma_cookie_t dma_cookie_assign(struct dma_async_tx_descriptor *tx)
+               ^
+/opt/Xilinx/SDK/2015.3/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include/linux/dmaengine.h: In function 'dma_cookie_assign':
+/opt/Xilinx/SDK/2015.3/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include/linux/dmaengine.h:30:28: error: dereferencing pointer to incomplete type
+  struct dma_chan *chan = tx->chan;
+                            ^
+/opt/Xilinx/SDK/2015.3/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include/linux/dmaengine.h:31:2: error: unknown type name 'dma_cookie_t'
+  dma_cookie_t cookie;
+  ^
+/opt/Xilinx/SDK/2015.3/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include/linux/dmaengine.h:33:15: error: dereferencing pointer to incomplete type
+  cookie = chan->cookie + 1;
+               ^
+/opt/Xilinx/SDK/2015.3/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include/linux/dmaengine.h:34:15: error: 'DMA_MIN_COOKIE' undeclared (first use in this function)
+  if (cookie < DMA_MIN_COOKIE)
+               ^
+/opt/Xilinx/SDK/2015.3/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include/linux/dmaengine.h:36:4: error: dereferencing pointer to incomplete type
+  tx->cookie = chan->cookie = cookie;
+    ^
+/opt/Xilinx/SDK/2015.3/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include/linux/dmaengine.h:36:19: error: dereferencing pointer to incomplete type
+  tx->cookie = chan->cookie = cookie;
+                   ^
+/opt/Xilinx/SDK/2015.3/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include/linux/dmaengine.h: In function 'dma_cookie_complete':
+/opt/Xilinx/SDK/2015.3/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include/linux/dmaengine.h:53:11: error: dereferencing pointer to incomplete type
+  BUG_ON(tx->cookie < DMA_MIN_COOKIE);
+           ^
+/opt/Xilinx/SDK/2015.3/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include/linux/dmaengine.h:53:22: error: 'DMA_MIN_COOKIE' undeclared (first use in this function)
+  BUG_ON(tx->cookie < DMA_MIN_COOKIE);
+                      ^
+/opt/Xilinx/SDK/2015.3/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include/linux/dmaengine.h:54:4: error: dereferencing pointer to incomplete type
+  tx->chan->completed_cookie = tx->cookie;
+    ^
+/opt/Xilinx/SDK/2015.3/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include/linux/dmaengine.h:54:33: error: dereferencing pointer to incomplete type
+  tx->chan->completed_cookie = tx->cookie;
+                                 ^
+/opt/Xilinx/SDK/2015.3/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include/linux/dmaengine.h:55:4: error: dereferencing pointer to incomplete type
+  tx->cookie = 0;
+    ^
+/opt/Xilinx/SDK/2015.3/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include/linux/dmaengine.h: At top level:
+/opt/Xilinx/SDK/2015.3/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include/linux/dmaengine.h:68:2: error: unknown type name 'dma_cookie_t'
+  dma_cookie_t cookie, struct dma_tx_state *state)
+  ^
+/opt/Xilinx/SDK/2015.3/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include/linux/dmaengine.h:83:64: error: unknown type name 'u32'
+ static inline void dma_set_residue(struct dma_tx_state *state, u32 residue)
+                                                                ^
+In file included from ../src/axidma.c:11:0:
+/opt/Xilinx/SDK/2015.3/gnu/arm/lin/arm-xilinx-linux-gnueabi/libc/usr/include/linux/module.h:15:32: fatal error: asm-generic/module.h: No such file or directory
+ #include <asm-generic/module.h>
+                                ^
+compilation terminated.
+make: *** [src/axidma.o] エラー 1
+
+11:25:54 Build Finished (took 126ms)
+

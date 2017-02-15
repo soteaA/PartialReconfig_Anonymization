@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+# IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+# Start of session at: Wed Jun 15 14:22:42 2016
+# Process ID: 110667
+# Current directory: /home/einsamer-wolf/Vivado/proj/anon_pr_1/proj/proj.runs/impl_1
+# Command line: vivado -log anon_hw_wrapper.vdi -applog -messageDb vivado.pb -mode batch -source anon_hw_wrapper.tcl -notrace
+# Log file: /home/einsamer-wolf/Vivado/proj/anon_pr_1/proj/proj.runs/impl_1/anon_hw_wrapper.vdi
+# Journal file: /home/einsamer-wolf/Vivado/proj/anon_pr_1/proj/proj.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source anon_hw_wrapper.tcl -notrace

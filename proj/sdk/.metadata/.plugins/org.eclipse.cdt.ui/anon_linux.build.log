@@ -1,0 +1,32 @@
+19:05:08 **** Auto Build of configuration Debug for project anon_linux ****
+make all 
+Building file: ../src/anon_linux.c
+Invoking: ARM Linux gcc compiler
+arm-xilinx-linux-gnueabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/anon_linux.o" -MMD -MP -MF"src/anon_linux.d" -MT"src/anon_linux.d" -o "src/anon_linux.o" "../src/anon_linux.c"
+../src/anon_linux.c: In function 'partial_prefetch_bin':
+../src/anon_linux.c:101:13: warning: implicit declaration of function 'read' [-Wimplicit-function-declaration]
+             ret = read(fd, anon_types[i].pr_buf, PR_BIN_SIZE);
+             ^
+../src/anon_linux.c:104:17: warning: implicit declaration of function 'close' [-Wimplicit-function-declaration]
+                 close(fd);
+                 ^
+../src/anon_linux.c: In function 'partial_reconfig_bin':
+../src/anon_linux.c:125:5: warning: implicit declaration of function 'write' [-Wimplicit-function-declaration]
+     write(fd, "1", 2);
+     ^
+Finished building: ../src/anon_linux.c
+ 
+Building target: anon_linux.elf
+Invoking: ARM Linux gcc linker
+arm-xilinx-linux-gnueabi-gcc  -o "anon_linux.elf"  ./src/anon_linux.o   
+Finished building target: anon_linux.elf
+ 
+Invoking: ARM Linux Print Size
+arm-xilinx-linux-gnueabi-size anon_linux.elf  |tee "anon_linux.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2908	 837312	     16	 840236	  cd22c	anon_linux.elf
+Finished building: anon_linux.elf.size
+ 
+
+19:05:08 Build Finished (took 175ms)
+

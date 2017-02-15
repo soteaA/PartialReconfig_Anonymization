@@ -1,0 +1,9 @@
+Language File-Name                  IP        Library         File-Path                                                                      
+Verilog, noise_hw.v,                noise_hw, xil_defaultlib, ./../../../bd/noise_hw/hdl/noise_hw.v                                          
+Verilog, NOISE_v1_0_S_AXIS.v,       noise_hw, xil_defaultlib, ./../../../bd/noise_hw/ipshared/user.org/noise_v1_0/hdl/NOISE_v1_0_S_AXIS.v    
+Verilog, NOISE_v1_0_M_AXIS.v,       noise_hw, xil_defaultlib, ./../../../bd/noise_hw/ipshared/user.org/noise_v1_0/hdl/NOISE_v1_0_M_AXIS.v    
+Verilog, NOISE_v1_0.v,              noise_hw, xil_defaultlib, ./../../../bd/noise_hw/ipshared/user.org/noise_v1_0/hdl/NOISE_v1_0.v           
+Verilog, noise_hw_NOISE_0_0.v,      noise_hw, xil_defaultlib, ./../../../bd/noise_hw/ip/noise_hw_NOISE_0_0/sim/noise_hw_NOISE_0_0.v          
+Verilog, xlconstant.v,              noise_hw, xil_defaultlib, ./../../../bd/noise_hw/ipshared/xilinx.com/xlconstant_v1_1/xlconstant.v        
+Verilog, noise_hw_xlconstant_0_0.v, noise_hw, xil_defaultlib, ./../../../bd/noise_hw/ip/noise_hw_xlconstant_0_0/sim/noise_hw_xlconstant_0_0.v
+Verilog, noise_hw_xlconstant_1_0.v, noise_hw, xil_defaultlib, ./../../../bd/noise_hw/ip/noise_hw_xlconstant_1_0/sim/noise_hw_xlconstant_1_0.v

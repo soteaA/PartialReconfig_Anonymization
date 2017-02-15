@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+# IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+# Start of session at: Tue Jun 21 12:46:09 2016
+# Process ID: 98356
+# Current directory: /home/einsamer-wolf/Vivado/proj/anon_pr_1/proj
+# Command line: wbtcv -mode batch -source /home/einsamer-wolf/Vivado/proj/anon_pr_1/proj/.Xil/Vivado-29876-einsamerwolf-HP-Z840-Workstation/webtalk/labtool_webtalk.tcl -notrace
+# Log file: /home/einsamer-wolf/Vivado/proj/anon_pr_1/proj/webtalk.log
+# Journal file: /home/einsamer-wolf/Vivado/proj/anon_pr_1/proj/webtalk.jou
+#-----------------------------------------------------------
+source /home/einsamer-wolf/Vivado/proj/anon_pr_1/proj/.Xil/Vivado-29876-einsamerwolf-HP-Z840-Workstation/webtalk/labtool_webtalk.tcl -notrace

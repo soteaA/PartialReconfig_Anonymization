@@ -1,0 +1,22 @@
+10:29:44 **** Incremental Build of configuration Debug for project dmatest ****
+make all 
+Building file: ../src/axidma.c
+Invoking: ARM Linux gcc compiler
+arm-xilinx-linux-gnueabi-gcc -Wall -O0 -g3 -I/home/einsamer-wolf/zynq_os/linux-xlnx/mm -I/home/einsamer-wolf/zynq_os/linux-xlnx/arch/arm/include/asm -I/home/einsamer-wolf/zynq_os/linux-xlnx/drivers/dma -I/home/einsamer-wolf/zynq_os/linux-xlnx/include/asm-generic -c -fmessage-length=0 -MT"src/axidma.o" -MMD -MP -MF"src/axidma.d" -MT"src/axidma.d" -o "src/axidma.o" "../src/axidma.c"
+In file included from /home/einsamer-wolf/zynq_os/linux-xlnx/arch/arm/include/asm/bug.h:6:0,
+                 from /home/einsamer-wolf/zynq_os/linux-xlnx/drivers/dma/dmaengine.h:8,
+                 from ../src/axidma.c:10:
+/home/einsamer-wolf/zynq_os/linux-xlnx/arch/arm/include/asm/opcodes.h:14:19: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'unsigned'
+ extern asmlinkage unsigned int arm_check_condition(u32 opcode, u32 psr);
+                   ^
+In file included from /home/einsamer-wolf/zynq_os/linux-xlnx/arch/arm/include/asm/bug.h:6:0,
+                 from /home/einsamer-wolf/zynq_os/linux-xlnx/drivers/dma/dmaengine.h:8,
+                 from ../src/axidma.c:10:
+/home/einsamer-wolf/zynq_os/linux-xlnx/arch/arm/include/asm/opcodes.h:200:23: fatal error: stringify.h: No such file or directory
+ #include <stringify.h>
+                       ^
+compilation terminated.
+make: *** [src/axidma.o] エラー 1
+
+10:29:44 Build Finished (took 78ms)
+
